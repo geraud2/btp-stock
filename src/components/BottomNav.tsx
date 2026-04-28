@@ -4,10 +4,10 @@ import { Home, ArrowDownToLine, ArrowUpFromLine, Repeat, Package, ClipboardList 
 const items = [
   { to: "/dashboard", label: "Accueil", icon: Home },
   { to: "/entrees", label: "Entrées", icon: ArrowDownToLine },
-  { to: "/sorties", label: "Sorties", icon: ArrowUpFromLine },
+  { to: "/sorties", label: "Consommation", icon: ArrowUpFromLine },
   { to: "/transferts", label: "Transferts", icon: Repeat },
   { to: "/stock", label: "Stock", icon: Package },
-  { to: "/inventaire", label: "Inventaire", icon: ClipboardList },
+  { to: "/inventaire", label: "Profil", icon: ClipboardList },
 ];
 
 export function BottomNav() {
